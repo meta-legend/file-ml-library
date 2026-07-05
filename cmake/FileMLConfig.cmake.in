@@ -1,0 +1,7 @@
+@PACKAGE_INIT@
+
+# File ML has no external dependencies (pure <filesystem> + <fstream>), so there
+# is nothing to find_dependency() here. Just bring in the exported target.
+include("${CMAKE_CURRENT_LIST_DIR}/FileMLTargets.cmake")
+
+check_required_components(FileML)

@@ -1,0 +1,39 @@
+# ── Build outputs ─────────────────────────────────────────────
+x64/
+build/
+out/
+Debug/
+Release/
+*.obj
+*.lib
+*.dll
+*.exe
+*.pdb
+*.idb
+*.ipdb
+*.iobj
+*.exp
+*.ilk
+*.tlog
+*.log
+
+# ── Visual Studio (machine-specific; CMake is the canonical build) ──
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# ── Visual Studio C++ upgrade scenario junk ───────────────────
+.github/upgrades/
+
+# ── vcpkg ─────────────────────────────────────────────────────
+vcpkg_installed/
+
+# ── Library temp files ────────────────────────────────────────
+*.tmp
+domainOutput.txt
+output.txt
+
+# Personal CMake preset overrides
+CMakeUserPresets.json
